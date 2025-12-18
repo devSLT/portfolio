@@ -1,4 +1,4 @@
-# 💼 Portfólio Pessoal — Thiago Oliveira
+# Portfólio Pessoal — Thiago Oliveira
 
 Este repositório contém o **meu portfólio profissional**, desenvolvido com **React + Vite**, com o objetivo de me apresentar como desenvolvedor, destacar minhas habilidades técnicas e reunir alguns dos projetos que venho desenvolvendo ao longo da minha trajetória.
 
@@ -26,22 +26,10 @@ O portfólio foi pensado para:
 
 ---
 
-## 📁 Estrutura do Projeto
-
-O projeto segue uma estrutura moderna e organizada, focada em:
-- Componentização
-- Reutilização de código
-- Performance
-- Escalabilidade
-
----
-
 ## 🚀 Funcionalidades (atuais e planejadas)
 
 - Página inicial com apresentação pessoal
-- Seção de projetos
 - Informações sobre tecnologias e habilidades
-- Layout responsivo
 - Melhorias contínuas de design e performance
 - Novas seções e projetos em breve
 
