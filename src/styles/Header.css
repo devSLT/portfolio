@@ -1,0 +1,29 @@
+/* //////////////////// Header //////////////////// */
+/* list animation */
+
+header nav {
+  border-top: 2px solid var(--whitePearl);
+  padding: 0 25px;
+}
+
+header nav ul li a {
+  position: relative;
+  color: var(--whitePearl);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--whitePearl);
+  transition: width 0.3s ease;
+}
+
+header nav ul li:hover a::before {
+  width: 100%;
+}

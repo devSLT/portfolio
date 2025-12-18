@@ -1,0 +1,39 @@
+/* //////////////////// Inicio Hero ////////////////////*/
+
+.heroContent h2 {
+  margin: 40px 0;
+} 
+
+/* //////////////////// Animando Botao //////////////////// */
+
+.heroContent button {
+  border: none;
+  border: 1px solid var(--whitePearl);
+  transition: color 0.4s ease-in-out;
+  transition: scale 0.2s ease-in-out;
+}
+
+.heroContent button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 12px;
+  background-color: var(--red);
+  transition: width 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.heroContent button:hover {
+  color: var(--whitePearl);
+}
+
+.heroContent button:hover::before {
+  width: 100%;
+}
+
+.heroContent button:active {
+  scale: 1.05;
+}
