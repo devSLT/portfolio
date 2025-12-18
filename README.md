@@ -1,16 +1,54 @@
-# React + Vite
+# 💼 Portfólio Pessoal — Thiago Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **meu portfólio profissional**, desenvolvido com **React + Vite**, com o objetivo de me apresentar como desenvolvedor, destacar minhas habilidades técnicas e reunir alguns dos projetos que venho desenvolvendo ao longo da minha trajetória.
 
-Currently, two official plugins are available:
+> 🚧 **Status do projeto:** Em desenvolvimento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Objetivo
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+O portfólio foi pensado para:
+- Apresentar quem eu sou como **desenvolvedor web**
+- Exibir **projetos reais e autorais**
+- Demonstrar minhas **habilidades técnicas**
+- Servir como um ponto central para contato profissional
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📁 Estrutura do Projeto
+
+O projeto segue uma estrutura moderna e organizada, focada em:
+- Componentização
+- Reutilização de código
+- Performance
+- Escalabilidade
+
+---
+
+## 🚀 Funcionalidades (atuais e planejadas)
+
+- Página inicial com apresentação pessoal
+- Seção de projetos
+- Informações sobre tecnologias e habilidades
+- Layout responsivo
+- Melhorias contínuas de design e performance
+- Novas seções e projetos em breve
+
+---
+
+## ▶️ Como executar o projeto localmente
+
+```bash
+npm install
+npm run dev
