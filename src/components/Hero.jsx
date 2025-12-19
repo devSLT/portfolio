@@ -2,7 +2,7 @@ import "../styles/Hero.css"
 
 function Hero() {
     return (
-        <div className="heroPage w-full w-max-full overflow-hidden h-[calc(100dvh-100px)] flex flex-col items-center justify-center">
+        <section className="heroPage w-full w-max-[1080px] overflow-hidden h-[calc(100dvh-100px)] min-h-[500px] flex flex-col items-center justify-center">
             <div className="heroContent w-4/5 font-bold">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-[var(--whitePearl)]">
                     Olá,<br />
@@ -15,7 +15,7 @@ function Hero() {
                     Ver Projetos
                 </button>
             </div>
-        </div>
+        </section>
     )
 }
 
