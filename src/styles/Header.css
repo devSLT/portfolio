@@ -2,15 +2,8 @@
 /* list animation */
 
 header nav {
-  border-top: 2px solid var(--whitePearl);
+  border-top: 1px solid var(--whitePearl);
   padding: 0 25px;
-}
-
-header nav ul li a {
-  position: relative;
-  color: var(--whitePearl);
-  text-decoration: none;
-  font-size: 18px;
 }
 
 header nav ul li a::before {
